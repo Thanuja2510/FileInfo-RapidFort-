@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("file received");
             console.log(data)
           fileInfoDiv.innerHTML = `
-            <p>Information of the file uploaded.</p>
+            <h3>Information of the file uploaded.</h3>
             <p>File Name: ${data.fileInfo.originalname}</p>
             <p>File Size: ${data.fileInfo.size}</p>
             <p>File Type: ${data.fileInfo.mimetype}</p>
